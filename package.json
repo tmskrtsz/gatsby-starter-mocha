@@ -1,0 +1,47 @@
+{
+  "name": "gatsby-starter-mocha",
+  "version": "1.0.0",
+  "description": "A Gatsby theme starter with mdx and styled-components",
+  "main": "index.js",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmskrtsz/gatsby-starter-mocha.git"
+  },
+  "keywords": [
+    "gatsby",
+    "starter",
+    "mdx",
+    "styled-components",
+    "react"
+  ],
+  "author": "Tamás Kertész <tamas@tuta.io> (https://redbeak.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tmskrtsz/gatsby-starter-mocha/issues"
+  },
+  "homepage": "https://github.com/tmskrtsz/gatsby-starter-mocha#readme",
+  "dependencies": {
+    "gatsby": "^2.4.2",
+    "gatsby-image": "^2.0.41",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-node": "^9.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}

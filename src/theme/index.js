@@ -2,6 +2,7 @@ module.exports = {
   brand: {
     primary: 'papayawhip',
     secondary: '#ed6a5a',
+    dark: '#1c1c1c',
   },
   colors: {},
   text: {

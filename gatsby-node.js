@@ -33,12 +33,13 @@ exports.createPages = ({ graphql, actions }) => {
     }
   `).then(res => {
     if (res.error) throw res.error
-
-    res.data.allMdx.edges.map(edge => {
+    res.data.allMdx.edges.map(({ node }) => {
       createPage({
-        path: edge.node.fields.slug,
+        path: node.fields.slug,
         component: template,
-        context: {},
+        context: {
+          slug: node.fields.slug,
+        },
       })
     })
   })
